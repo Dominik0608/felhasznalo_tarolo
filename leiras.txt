@@ -1,0 +1,13 @@
+1. Fájlok letöltése (GitHub esetén: https://github.com/Dominik0608/felhasznalo_tarolo)
+2. Laravel függőségek letöltése (projekt mappájában cmd: `composer install`)
+3. `.env.example` fájl átnevezése `.env`-re (Laravelhez használt változók találhatók benne)
+4. Adatbázis bejelentkezési adatok megadása a `.env` fájlban
+4.1. DB_CONNECTION=mysql (csatlakozás típusa)
+4.2. DB_HOST=localhost (adatbázis címe)
+4.3. DB_PORT=3306 (adatbázis portja)
+4.4. DB_DATABASE=crosssec (adatbázis neve)
+4.5. DB_USERNAME=root (adatbázis felhasználónév)
+4.6. DB_PASSWORD= (adatbázis jelszó)
+5. Adatbázis importálása (főkönyvtárban van egy `crosssec.sql` fájl)
+6. (valószínűleg kell) Laravel kulcs generálás (projekt mappájában cmd: `php artisan key:generate`)
+7. Weboldal elindítása (webszerverrel vagy php artisan-nal)
